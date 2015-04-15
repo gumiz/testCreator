@@ -25,9 +25,9 @@
 
       <div class="container">
         <div id="questions">
-          <ul ng-repeat="q in data.randomQuestions">
+          <ul ng-repeat="q in data.randomQuestions" style="margin-bottom: 15px">
               <b>{{q.question}}</b>
-              <li ng-repeat="a in q.answers" class="squareList" style="margin-left: 30px">{{a}}</li>
+              <li ng-repeat="a in q.answers" class="squareList" style="margin-left: 35px">{{a}}</li>
             </ul>
         </div>
       </div>
