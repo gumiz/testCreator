@@ -1,3 +1,7 @@
+.squareList {
+  list-style-image: url('/images/square.png');
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -80,4 +84,12 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
 }
