@@ -32,7 +32,8 @@ angular.module('jsTestCreatorApp').controller('fileServiceCtrl', function ($scop
         $scope.data.questions = shuffle($scope.data.questions);
         $scope.data.randomQuestions = [];
         var tablen = Math.min($scope.data.questions.length, $scope.data.number);
-        for (var i=0; i<=tablen; i++) {
+        debugger;
+        for (var i=0; i<tablen; i++) {
           if ($scope.data.questions[i] == '') continue;
           var temp = $scope.data.questions[i].split('\n');
           var problem = {
