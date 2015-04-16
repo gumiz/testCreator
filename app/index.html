@@ -23,14 +23,18 @@
   </div>
 
   <div id="searcher" class="no-print">
-    <input type="file" id="fileinput"/>
-    <br />
-    <input type="number" step=10 ng-model="data.number" ng-change="data.generate()"/>
-    <br />
-    <br />
+    <div style="margin-left: 50px; margin-bottom: 10px">
+      <input type="file" id="fileinput"/>
+    </div>
+    <div style="float:left; margin-left: 50px">
+      <input type="number" step=10 ng-model="data.number" ng-change="data.generate()"/>
+    </div>
+    <div style="float:left; margin-left: 50px; margin-bottom: 30px">
+      <input type="button" id="refresh" ng-click="data.generate()" value="Losuj"/>
+    </div>
   </div>
 
-  <div class="container">
+  <div class="container" style="clear: both; float: left">
     <div id="questions">
       <ul ng-repeat="q in data.randomQuestions" style="margin-bottom: 15px">
         <b>{{q.question}}</b>
@@ -39,7 +43,7 @@
     </div>
   </div>
 
-  <div class="footer">
+  <div class="footer" style="clear: both">
     <div class="container">
       <p>by gumiz</p>
     </div>

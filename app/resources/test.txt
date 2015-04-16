@@ -1,10 +1,10 @@
-#1. Jak mam na imiê?
+#1. Jak mam na imiÄ™?
 a) Krzysiek
 b) Komputer
 c) Rysiek
 d) Dudek
 
-#2. Jak NIE mam na imiê?
+#2. Jak NIE mam na imiÄ™?
 a) Krzysiek
 b) Komputer
 c) Rysiek
