@@ -25,7 +25,6 @@ angular.module('jsTestCreatorApp').controller('fileServiceCtrl', function ($scop
 
 
       $scope.data.generate = function() {
-        debugger;
         if ($scope.data.questions == undefined) {
           alert('Brak danych');
           return;
@@ -33,7 +32,6 @@ angular.module('jsTestCreatorApp').controller('fileServiceCtrl', function ($scop
         $scope.data.questions = shuffle($scope.data.questions);
         $scope.data.randomQuestions = [];
         var tablen = Math.min($scope.data.questions.length, $scope.data.number);
-        debugger;
         for (var i=0; i<=tablen; i++) {
           if ($scope.data.questions[i] == '') continue;
           var temp = $scope.data.questions[i].split('\n');
@@ -43,11 +41,10 @@ angular.module('jsTestCreatorApp').controller('fileServiceCtrl', function ($scop
           };
           for (var a=1; a<temp.length; a++) {
             if (temp[a].trim()!='')
-              problem.answers.push(temp[a].substr(1));
+              problem.answers.push(temp[a]);
           }
           $scope.data.randomQuestions.push(problem);
         }
-        debugger;
       }
 
       function shuffle(array) {
