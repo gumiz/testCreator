@@ -1,5 +1,12 @@
-.squareList {
-  list-style-image: url('/images/square.png');
+.bigCheckWrapper {
+  margin-top: 15px;
+}
+.bigCheck {
+  /* All browsers except webkit*/
+  transform: scale(2.0);
+
+  /* Webkit browsers*/
+  -webkit-transform: scale(2.0);
 }
 
 .browsehappy {

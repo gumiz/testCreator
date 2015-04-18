@@ -51,11 +51,18 @@
 
   <div class="container" style="clear: both; float: left">
     <div id="questions">
-      <ul ng-repeat="q in data.randomQuestions" style="margin-bottom: 15px">
-        <b>{{q.question}}</b>
-        <li ng-repeat="a in q.answers" class="squareList" style="margin-left: 35px">{{a}}</li>
-      </ul>
+      <div ng-repeat="q in data.randomQuestions" style="margin-bottom: 15px">
+        <p><b>{{q.question}}</b></p>
+        <p ng-repeat="a in q.answers">
+          <input class="bigCheck" type="checkbox" ng-model="a.answer.id" style="width: 20px"/><span> {{a.answer}}</span>
+        </p>
+      </div>
     </div>
+  </div>
+
+
+  <div style="clear: both; margin-left: 50px; margin-bottom: 30px">
+    <input type="button" id="validateButton" ng-click="data.validate()" value="Sprawdź"/>
   </div>
 
   <div class="footer" style="clear: both">
@@ -67,12 +74,13 @@
 </div>
 
 
-
 <!-- build:js({.tmp,app}) scripts/scripts.js -->
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
 <script src="scripts/controllers/about.js"></script>
 <script src="scripts/controllers/fileService.js"></script>
+<script src="scripts/services/arrayrandomizer.js"></script>
+<script src="scripts/services/fileloaderservice.js"></script>
 <!-- endbuild -->
 </body>
 </html>

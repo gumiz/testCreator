@@ -1,112 +1,112 @@
 #1. Jak mam na imiÄ™?
-a) Krzysiek
-b) Komputer
-c) Rysiek
-d) Dudek
+0a) Krzysiek
+0b) Komputer
+1c) Rysiek
+0d) Dudek
 
 #2. Jak NIE mam na imiÄ™?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+0a) Krzysiek
+0b) Komputer
+1c) Rysiek
 
-#3. Jak mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#3. Jak mam na imiï¿½?
+0a) Krzysiek
+1b) Komputer
+1c) Rysiek
 
-#4. Jak NIE mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#4. Jak NIE mam na imiï¿½?
+0a) Krzysiek
+0b) Komputer
+1c) Rysiek
 
-#5. Jak mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#5. Jak mam na imiï¿½?
+0a) Krzysiek
+0b) Komputer
+1c) Rysiek
 
-#6. Jak NIE mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#6. Jak NIE mam na imiï¿½?
+1a) Krzysiek
+0b) Komputer
+0c) Rysiek
 
-#7. Jak mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#7. Jak mam na imiï¿½?
+0a) Krzysiek
+1b) Komputer
+0c) Rysiek
 
-#8. Jak NIE mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#8. Jak NIE mam na imiï¿½?
+0a) Krzysiek
+1b) Komputer
+0c) Rysiek
 
-#9. Jak mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#9. Jak mam na imiï¿½?
+0a) Krzysiek
+0b) Komputer
+1c) Rysiek
 
-#10. Jak NIE mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#10. Jak NIE mam na imiï¿½?
+1a) Krzysiek
+1b) Komputer
+0c) Rysiek
 
-#11. Jak mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#11. Jak mam na imiï¿½?
+0a) Krzysiek
+1b) Komputer
+1c) Rysiek
 
-#12. Jak NIE mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#12. Jak NIE mam na imiï¿½?
+0a) Krzysiek
+0b) Komputer
+1c) Rysiek
 
-#13. Jak mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#13. Jak mam na imiï¿½?
+1a) Krzysiek
+0b) Komputer
+1c) Rysiek
 
-#14. Jak NIE mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#14. Jak NIE mam na imiï¿½?
+0a) Krzysiek
+1b) Komputer
+0c) Rysiek
 
-#15. Jak mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#15. Jak mam na imiï¿½?
+1a) Krzysiek
+0b) Komputer
+0c) Rysiek
 
-#16. Jak NIE mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#16. Jak NIE mam na imiï¿½?
+0a) Krzysiek
+1b) Komputer
+1c) Rysiek
 
-#17. Jak mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#17. Jak mam na imiï¿½?
+0a) Krzysiek
+0b) Komputer
+1c) Rysiek
 
-#18. Jak NIE mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#18. Jak NIE mam na imiï¿½?
+0a) Krzysiek
+0b) Komputer
+1c) Rysiek
 
-#19. Jak mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#19. Jak mam na imiï¿½?
+0a) Krzysiek
+1b) Komputer
+1c) Rysiek
 
-#20. Jak NIE mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#20. Jak NIE mam na imiï¿½?
+0a) Krzysiek
+0b) Komputer
+1c) Rysiek
 
-#21. Jak mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#21. Jak mam na imiï¿½?
+0a) Krzysiek
+1b) Komputer
+1c) Rysiek
 
-#22. Jak NIE mam na imiê?
-a) Krzysiek
-b) Komputer
-c) Rysiek
+#22. Jak NIE mam na imiï¿½?
+0a) Krzysiek
+1b) Komputer
+0c) Rysiek
 
 
