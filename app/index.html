@@ -43,7 +43,7 @@
       <div style="float:left; margin-left: 50px">
         <input type="number" step=10 ng-model="data.number" ng-change="data.generate()" style="width:60px"/>
       </div>
-      <div style="float:left; margin-left: 50px; margin-bottom: 30px">
+      <div style="float:left; margin-left: 5px; margin-bottom: 30px">
         <input type="button" id="refresh" ng-click="data.generate()" value="Losuj"/>
       </div>
       <div style="float: left; margin-left: 50px; margin-bottom: 30px">
@@ -58,8 +58,8 @@
         <p><b>{{q.question}}</b></p>
         <p ng-repeat="a in q.answers">
           <input class="bigCheck" type="checkbox" ng-model="data.providedAnswers[a.id]" style="width: 20px"/>
-          <span ng-show="a.isCorrect"> <b>{{a.answer}}</b></span>
-          <span ng-hide="a.isCorrect"> {{a.answer}}</span>
+          <span ng-show="a.isIncorrect" style="text-decoration: line-through; color: red; font-weight: bold"> {{a.answer}}</span>
+          <span ng-hide="a.isIncorrect"> {{a.answer}}</span>
         </p>
       </div>
     </div>
@@ -86,6 +86,7 @@
 <script src="scripts/services/arrayrandomizer.js"></script>
 <script src="scripts/services/fileloaderservice.js"></script>
 <script src="scripts/services/resultpresenterservice.js"></script>
+<script src="scripts/services/scorecounterservice.js"></script>
 <!-- endbuild -->
 </body>
 </html>

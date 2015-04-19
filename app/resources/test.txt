@@ -1,112 +1,55 @@
-#1. Jak mam na imię?
-0a) Krzysiek
-0b) Komputer
-1c) Rysiek
-0d) Dudek
+#1. Jak nazywa sie planeta na ktorej zyjesz?
+0a) Mars
+0b) Saturn
+1c) Ziemia
+0d) Jowisz
 
-#2. Jak NIE mam na imię?
-0a) Krzysiek
-0b) Komputer
-1c) Rysiek
+#2. Ile planet posiada uklad sloneczny?
+0a) 7
+1b) 8
+0c) 9
+0d) 10
+0e) 6
 
-#3. Jak mam na imi�?
-0a) Krzysiek
-1b) Komputer
-1c) Rysiek
+#3. Ile gwiazd posiada nasz uklad sloneczny?
+0a) 0
+1b) 1
+0c) 2
 
-#4. Jak NIE mam na imi�?
-0a) Krzysiek
-0b) Komputer
-1c) Rysiek
+#4. Czy Slonce jest najwieksza gwiazda
+1a) Oczywiscie ze nie
+0b) Oczywiscie ze tak
 
-#5. Jak mam na imi�?
-0a) Krzysiek
-0b) Komputer
-1c) Rysiek
+#5. Znane zwierze Schrodingera to:
+0a) Pies
+0b) Chomik
+1c) Kot
+0d) Swinka morska
 
-#6. Jak NIE mam na imi�?
-1a) Krzysiek
-0b) Komputer
-0c) Rysiek
+#6. Cegla wazy 1 kilogram i pol cegly, ile wazy cegla?
+0a) 0,5kg
+0b) 1kg
+0c) 1,5kg
+1d) 2kg
+0e) 1,75 kilocegly
+1f) 2x0,5 cegly
 
-#7. Jak mam na imi�?
-0a) Krzysiek
-1b) Komputer
-0c) Rysiek
+#7. Planeta ukladu slonecznego z najbardziej widocznymi pierscieniami to?
+0a) Mars
+1b) Saturn
+0c) Jowisz
+0d) Neptun
 
-#8. Jak NIE mam na imi�?
-0a) Krzysiek
-1b) Komputer
-0c) Rysiek
+#8. Jednostka astronomiczna to:
+0a) Predkosc swiatla w prozni
+1b) Srednia odleglosc ziemia-slonce
+0c) Srednia odleglosc ziemia-ksiezyc
 
-#9. Jak mam na imi�?
-0a) Krzysiek
-0b) Komputer
-1c) Rysiek
+#9. Predkosc swiatla zalezy od?
+0a) temperatury
+0b) tarcia
+0c) cisnienia
 
-#10. Jak NIE mam na imi�?
-1a) Krzysiek
-1b) Komputer
-0c) Rysiek
-
-#11. Jak mam na imi�?
-0a) Krzysiek
-1b) Komputer
-1c) Rysiek
-
-#12. Jak NIE mam na imi�?
-0a) Krzysiek
-0b) Komputer
-1c) Rysiek
-
-#13. Jak mam na imi�?
-1a) Krzysiek
-0b) Komputer
-1c) Rysiek
-
-#14. Jak NIE mam na imi�?
-0a) Krzysiek
-1b) Komputer
-0c) Rysiek
-
-#15. Jak mam na imi�?
-1a) Krzysiek
-0b) Komputer
-0c) Rysiek
-
-#16. Jak NIE mam na imi�?
-0a) Krzysiek
-1b) Komputer
-1c) Rysiek
-
-#17. Jak mam na imi�?
-0a) Krzysiek
-0b) Komputer
-1c) Rysiek
-
-#18. Jak NIE mam na imi�?
-0a) Krzysiek
-0b) Komputer
-1c) Rysiek
-
-#19. Jak mam na imi�?
-0a) Krzysiek
-1b) Komputer
-1c) Rysiek
-
-#20. Jak NIE mam na imi�?
-0a) Krzysiek
-0b) Komputer
-1c) Rysiek
-
-#21. Jak mam na imi�?
-0a) Krzysiek
-1b) Komputer
-1c) Rysiek
-
-#22. Jak NIE mam na imi�?
-0a) Krzysiek
-1b) Komputer
-0c) Rysiek
-
-
+#10. Predkosc zalezy od?
+1a) przebytej drogi
+1b) czasu

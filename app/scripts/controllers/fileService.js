@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jsTestCreatorApp').controller('fileServiceCtrl', ['$scope', 'arrayRandomizer', 'fileLoaderService', 'resultPresenterService', function ($scope, arrayRandomizer, fileLoaderService, resultPresenterService) {
+angular.module('jsTestCreatorApp').controller('fileServiceCtrl', ['$scope', 'arrayRandomizer', 'fileLoaderService', 'scoreCounterService', function ($scope, arrayRandomizer, fileLoaderService, scoreCounterService) {
 
   initData();
 
@@ -19,29 +19,9 @@ angular.module('jsTestCreatorApp').controller('fileServiceCtrl', ['$scope', 'arr
     generateRandomQuestions();
   };
 
-  $scope.data.getScore = function () {
-    var validationResult = {
-      good: 0,
-      all: 0
-    };
-    for (var questionIndex = 0; questionIndex < $scope.data.randomQuestions.length; questionIndex++) {
-      var correctAnswers = 0;
-      for (var answerIndex = 0; answerIndex < $scope.data.randomQuestions[questionIndex].answers.length; answerIndex++) {
-        var answer = $scope.data.randomQuestions[questionIndex].answers[answerIndex];
-        answer.validationResult = validateAnswer(answer);
-        if (answer.validationResult)
-          correctAnswers++;
-      }
-      if ($scope.data.randomQuestions[questionIndex].answers.length == correctAnswers)
-        validationResult.good++;
-      validationResult.all++;
-    }
-    resultPresenterService.showResult(validationResult);
+  $scope.data.getScore = function() {
+    scoreCounterService.getScore($scope.data.randomQuestions, $scope.data.providedAnswers);
   };
-
-  function validateAnswer(answer) {
-    return ( (answer.isCorrect == $scope.data.providedAnswers[answer.id]) || ((answer.isCorrect == false) && ($scope.data.providedAnswers[answer.id] == undefined)) );
-  }
 
   document.getElementById('fileinput').addEventListener('change', $scope.data.fileChanged, false);
 
@@ -75,7 +55,7 @@ angular.module('jsTestCreatorApp').controller('fileServiceCtrl', ['$scope', 'arr
           var answer = {
             id: answerIdent++,
             answer: currentAnswer.substr(1).trim(),
-            isCorrect: (currentAnswer.substring(0, 1) == "1")
+            shouldBeChecked: (currentAnswer.substring(0, 1) == "1")
           };
           problem.answers.push(answer);
         }
@@ -97,11 +77,11 @@ angular.module('jsTestCreatorApp').controller('fileServiceCtrl', ['$scope', 'arr
     $scope.data.questions = undefined;
     $scope.data.randomQuestions = [
       {
-        question: "1. Dummy test question?",
+        question: "1. Pytanie testowe?",
         answers: [
-          {id: 1, answer: "answer 1", isCorrect: 0},
-          {id: 2, answer: "answer 2", isCorrect: 1},
-          {id: 3, answer: "answer 3", isCorrect: 0}
+          {id: 1, answer: "odpowiedź błędna", shouldBeChecked: 0},
+          {id: 2, answer: "odpowiedź prawidłowa", shouldBeChecked: 1},
+          {id: 3, answer: "odpowiedź błędna", shouldBeChecked: 0}
         ]
       }
     ];
