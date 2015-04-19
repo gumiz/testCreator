@@ -41,10 +41,13 @@
         <input type="file" id="fileinput"/>
       </div>
       <div style="float:left; margin-left: 50px">
-        <input type="number" step=10 ng-model="data.number" ng-change="data.generate()"/>
+        <input type="number" step=10 ng-model="data.number" ng-change="data.generate()" style="width:60px"/>
       </div>
       <div style="float:left; margin-left: 50px; margin-bottom: 30px">
         <input type="button" id="refresh" ng-click="data.generate()" value="Losuj"/>
+      </div>
+      <div style="float: left; margin-left: 50px; margin-bottom: 30px">
+        <input type="button" id="validateButtonTop" ng-click="data.getScore()" value="Sprawdź"/>
       </div>
     </div>
   </div>
@@ -63,7 +66,7 @@
   </div>
 
   <div style="clear: both; margin-left: 50px; margin-bottom: 30px">
-    <input type="button" id="validateButton" ng-click="data.validate()" value="Sprawdź"/>
+    <input type="button" id="validateButtonBottom" ng-click="data.getScore()" value="Sprawdź"/>
   </div>
 
   <div class="footer" style="clear: both">

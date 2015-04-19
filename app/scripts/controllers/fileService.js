@@ -19,18 +19,22 @@ angular.module('jsTestCreatorApp').controller('fileServiceCtrl', ['$scope', 'arr
     generateRandomQuestions();
   };
 
-  $scope.data.validate = function () {
+  $scope.data.getScore = function () {
     var validationResult = {
       good: 0,
       all: 0
     };
     for (var questionIndex = 0; questionIndex < $scope.data.randomQuestions.length; questionIndex++) {
+      var correctAnswers = 0;
       for (var answerIndex = 0; answerIndex < $scope.data.randomQuestions[questionIndex].answers.length; answerIndex++) {
         var answer = $scope.data.randomQuestions[questionIndex].answers[answerIndex];
-        if (validateAnswer(answer))
-          validationResult.good++;
-        validationResult.all++;
+        answer.validationResult = validateAnswer(answer);
+        if (answer.validationResult)
+          correctAnswers++;
       }
+      if ($scope.data.randomQuestions[questionIndex].answers.length == correctAnswers)
+        validationResult.good++;
+      validationResult.all++;
     }
     resultPresenterService.showResult(validationResult);
   };

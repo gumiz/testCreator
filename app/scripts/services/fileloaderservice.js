@@ -13,7 +13,7 @@ angular.module('jsTestCreatorApp')
             };
             r.readAsText(file);
           } else {
-            alert("Failed to load file");
+            alert("Nieudana próba wczytania pliku");
           }
         }
       }
