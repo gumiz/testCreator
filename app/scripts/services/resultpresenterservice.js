@@ -4,7 +4,8 @@ angular.module('jsTestCreatorApp')
   .service('resultPresenterService', function () {
 
     function showResult(validationResult) {
-      alert("Score: " + validationResult.good + " / " + validationResult.all);
+      var result = Math.round(validationResult.good/validationResult.all*100);
+      alert("Score: " + validationResult.good + " / " + validationResult.all + '\n\n' + "Percent: " + result + "%");
     }
 
     return {
