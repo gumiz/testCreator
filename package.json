@@ -2,6 +2,7 @@
   "name": "jstestcreator",
   "version": "0.0.0",
   "dependencies": {
+    "bower": "^1.4.1",
     "express": "^4.12.3",
     "gzippo": "^0.2.0"
   },
@@ -46,5 +47,6 @@
     "test": "test"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "postinstall" : "./node_modules/bower/bin/bower install"
 }
