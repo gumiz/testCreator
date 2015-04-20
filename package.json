@@ -47,6 +47,5 @@
     "test": "test"
   },
   "author": "",
-  "license": "ISC",
-  "postinstall" : "./node_modules/bower/bin/bower install && grunt build"
+  "license": "ISC"
 }
