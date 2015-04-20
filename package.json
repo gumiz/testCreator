@@ -48,5 +48,5 @@
   },
   "author": "",
   "license": "ISC",
-  "postinstall" : "./node_modules/bower/bin/bower install"
+  "postinstall" : "./node_modules/bower/bin/bower install && grunt build"
 }
