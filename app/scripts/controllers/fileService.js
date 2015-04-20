@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('jsTestCreatorApp').controller('fileServiceCtrl', ['$scope', 'arrayRandomizer', 'fileLoaderService', 'scoreCounterService', function ($scope, arrayRandomizer, fileLoaderService, scoreCounterService) {
+angular.module('jsTestCreatorApp').controller('fileServiceCtrl', ['$scope', 'arrayRandomizer', 'fileLoaderService', 'scoreCounterService', 'dialogService', function ($scope, arrayRandomizer, fileLoaderService, scoreCounterService, dialogService) {
 
   initData();
 
@@ -9,7 +9,7 @@ angular.module('jsTestCreatorApp').controller('fileServiceCtrl', ['$scope', 'arr
   $scope.data.generate = function () {
     $scope.data.providedAnswers = {};
     if ($scope.data.questions == undefined) {
-      alert('Brak danych');
+      dialogService.showMessage('Brak danych');
       return;
     }
     removeEmptyQuestions();

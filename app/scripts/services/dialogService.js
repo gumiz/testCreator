@@ -1,7 +1,6 @@
-/*global appServices, $*/
-appServices.factory('dialogService', ['ngDialog', function (ngDialog) {
-    "use strict";
+'use strict';
 
+angular.module('jsTestCreatorApp').service('dialogService', ['ngDialog', function (ngDialog) {
     var showMessage = function(message) {
         ngDialog.openConfirm({
             template:
