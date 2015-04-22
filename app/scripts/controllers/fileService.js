@@ -26,13 +26,14 @@ angular.module('jsTestCreatorApp').controller('fileServiceCtrl', ['$scope', 'arr
   document.getElementById('fileinput').addEventListener('change', $scope.data.fileChanged, false);
 
   function getDataFromFile(data) {
+    debugger;
     var contents = data.target.result;
     $scope.data.questions = contents.split('#');
     $scope.data.generate();
     $scope.$apply();
   }
 
-  function randomizeData() {
+    function randomizeData() {
     $scope.data.questions = arrayRandomizer.shuffleArray($scope.data.questions);
   }
 
